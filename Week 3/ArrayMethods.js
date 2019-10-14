@@ -8,6 +8,11 @@ function array()
     
     let arrsplice = Intarr.splice(2);                   // splices starting 2 indexes
     console.log("array splice => "+arrsplice);
+
+    let arr="Neha Padage Welcome in Bridgelabz";        //splits the whole string into small strings
+    var result=arr.split(" ");
+    console.log(result);
+    
   
 }
 
@@ -65,37 +70,37 @@ var firstTeenager = people.find(teenager)
 console.log('First found teenager:', firstTeenager.name)
 
 
-                        // Array Every
-var people = [
-  {name: 'Jack', age: 50},
-  {name: 'Michael', age: 9}, 
-  {name: 'John', age: 40}, 
-  {name: 'Ann', age: 19}, 
-  {name: 'Elisabeth', age: 16}
-]
+//                         // Array Every
+// var people = [
+//   {name: 'Jack', age: 50},
+//   {name: 'Michael', age: 9}, 
+//   {name: 'John', age: 40}, 
+//   {name: 'Ann', age: 19}, 
+//   {name: 'Elisabeth', age: 16}
+// ]
 
-function teenager(person) {
-    return person.age > 10 && person.age < 20
-}
+// function teenager(person) {
+//     return person.age > 10 && person.age < 20
+// }
 
-var everyoneIsTeenager = people.every(teenager)
+// var everyoneIsTeenager = people.every(teenager)
 
-console.log('Everyone is teenager: ', everyoneIsTeenager)
+// console.log('Everyone is teenager: ', everyoneIsTeenager)
 
 
-                                                // some
-var people = [
-  {name: 'Jack', age: 50},
-  {name: 'Michael', age: 9}, 
-  {name: 'John', age: 40}, 
-  {name: 'Ann', age: 19}, 
-  {name: 'Elisabeth', age: 16}
-]
+//                                                 // some
+// var people = [
+//   {name: 'Jack', age: 50},
+//   {name: 'Michael', age: 9}, 
+//   {name: 'John', age: 40}, 
+//   {name: 'Ann', age: 19}, 
+//   {name: 'Elisabeth', age: 16}
+// ]
 
-function teenager(person) {
-    return person.age > 10 && person.age < 20
-}
+// function teenager(person) {
+//     return person.age > 10 && person.age < 20
+// }
 
-var thereAreTeenagers = people.some(teenager)
+// var thereAreTeenagers = people.some(teenager)
 
-console.log('There are teenagers:', thereAreTeenagers)
+// console.log('There are teenagers:', thereAreTeenagers)
